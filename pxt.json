@@ -1,0 +1,30 @@
+{
+    "name": "temperatura",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-wifi": "github:solderedelectronics/pxt-wifi#v1.1.0",
+        "pxt-katakana": "github:mbitfun/pxt-katakana#v1.0.16",
+        "mbit": "github:lzty634158/yahboom_mbit_en#ec0be625edd52ff7e5e0f4bbc92d43cb3c3205d3",
+        "Mbit_IR": "github:YahboomTechnology/Yahboom_IR#f9c852a02f4d647a6d76b7f495535ecb9dde7108"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
